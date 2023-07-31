@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="author" content="Airi Watanabe"> 
+        <meta name="keywords" content="HTML, CSS, Javascript">
+        <title>じゃんけんゲーム</title>
+        <script src="./js/main.js"></script>
+    </head>
+
+    <body>
+        <h3 class="pink_color">じゃんけんゲーム</h3>
+        <table>
+            <tr>
+                <td>
+                    <div style="margin-left: 100px;margin-bottom: 20px;">
+                        <button type="button" onclick="Jan_3(0)">
+                            <img src="./gallery/Jan_gu.jpg" alt="button" width="100" height="100">
+                        </button>
+                    </div>
+                    <div style="margin-left: 30px;">
+                        <button type="button" onclick="Jan_3(1)" style="margin-right: 20px;">
+                            <img src="./gallery/Jan_tyo.jpg" alt="button" width="100" height="100">
+                        </button>
+                        <button type="button" onclick="Jan_3(2)" style="margin-right: 10px;">
+                            <img src="./gallery/Jan_par.jpg" alt="button" width="100" height="100">
+                        </button>
+                    </div>            
+                </td>
+                <td>
+                    <h1 style="margin: auto;"><b>VS</b></h1>
+                </td>
+                <td>
+                    <div style="margin-left: 20px;">
+                        <img id="kekka" width="100" height="100" style="margin: auto;">
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+        <h4 id="resule" style="margin-left: 300px;"></h4>
+        <a href="./index.html">前のページへ</a>
+    </body>    
+</html>

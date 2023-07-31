@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+h1{
+    padding: 0.5rem 0rem;
+    margin-bottom: 0.2rem;
+    border-bottom: 3px solid black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+table, td, th{
+    border:2px green solid;
+    background-color: aqua;
+}
+
+.lightblue{
+    color: rgb(79, 227, 227);
+}
+
+.pink_color{
+    color: pink;
+}
+
+.width_700{
+    width:700px;
+}
+.width_250{
+    width:250px;
+}
+
+.font_text{
+    color: red;
+}
+
+.border_style{
+    background-color: rgb(255, 150, 0);
+    border:5px;
+    box-shadow: 1px 0px 9px 5px rgb(255, 150, 0);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
