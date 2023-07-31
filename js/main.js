@@ -1,11 +1,3 @@
-function Display(){
-    let now = new Date();
-    var YYYY = now.getFullYear();
-    var MM = now.getMonth()+1;
-    var DD = now.getDate();
-    alert(YYYY+"/"+MM+"/"+DD);
-}
-
 function Jan_3(hidarite){
     //グーが0
     //チョキが1
